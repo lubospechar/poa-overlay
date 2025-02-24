@@ -20,6 +20,6 @@ RDEPEND="
 DEPEND="${RDEPEND}"
 
 src_install() {
-    python_domodule pymailchecker.py
+    python_foreach_impl python_domodule pymailchecker.py
     dobin pymailchecker.py
 }
