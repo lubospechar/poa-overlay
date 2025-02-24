@@ -12,6 +12,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
+S="${WORKDIR}/pymailchecker-main"
+
 RDEPEND="
     dev-python/requests
 "
