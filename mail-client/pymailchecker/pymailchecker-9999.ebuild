@@ -21,5 +21,5 @@ DEPEND="${RDEPEND}"
 
 src_install() {
     python_foreach_impl python_domodule pymailchecker.py
-    dobin pymailchecker.py
+    newbin pymailchecker.py pymailchecker
 }
