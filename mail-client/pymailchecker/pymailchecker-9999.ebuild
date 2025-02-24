@@ -11,6 +11,8 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
 IUSE=""
+KEYWORDS="~amd64"
+
 
 RDEPEND="
     dev-python/requests
