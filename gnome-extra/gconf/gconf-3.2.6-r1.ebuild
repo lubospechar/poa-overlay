@@ -16,7 +16,6 @@ DEPEND="
     >=dev-libs/glib-2.36:2
     >=dev-libs/dbus-glib-0.76
     >=dev-libs/libxml2-2.6
-    >=gnome-base/orbit-2.14
     introspection? ( >=dev-libs/gobject-introspection-0.10.1 )
 "
 RDEPEND="${DEPEND}"
