@@ -22,10 +22,16 @@ RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/GConf-3.2.6"
 
+
 src_prepare() {
     default
     gnome2_src_prepare
+
+    # Disable building examples which require old GTK versions
+    sed -i '/^SUBDIRS =/s/examples//' Makefile.in || die
 }
+
+
 
 src_configure() {
     gnome2_src_configure \
